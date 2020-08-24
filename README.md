@@ -1,6 +1,6 @@
 [![Build Status](https://dev.azure.com/adityakalia0117/azure-devops/_apis/build/status/adityakalia.ContosoAir?branchName=master)](https://dev.azure.com/adityakalia0117/azure-devops/_build/latest?definitionId=1&branchName=master)
 
-![alt text](https://dev.azure.com/adityakalia0117/azure-devops/_apis/build/status/adityakalia.ContosoAir?branchName=master "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/adam-p/markdown-here/master/src/common/images/icon48.png)
 
 # Microsoft.Github CI Demo
 
