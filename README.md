@@ -1,5 +1,7 @@
 [![Build Status](https://dev.azure.com/adityakalia0117/azure-devops/_apis/build/status/adityakalia.ContosoAir?branchName=master)](https://dev.azure.com/adityakalia0117/azure-devops/_build/latest?definitionId=1&branchName=master)
 
+![alt text](https://dev.azure.com/adityakalia0117/azure-devops/_apis/build/status/adityakalia.ContosoAir?branchName=master "Logo Title Text 1")
+
 # Microsoft.Github CI Demo
 
 Demo website application for Contoso Air.  
