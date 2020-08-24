@@ -9,7 +9,7 @@ steps:
       customcommand: 'install --production'
   - script: 'npm test'
     displayName: 'Run unit tests'
-    continueOnError: true
+    continueOnError: false
   - task: PublishTestResults@2
     displayName: 'Publish Test Results'
     condition: succeededOrFailed()
