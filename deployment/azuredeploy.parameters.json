@@ -4,7 +4,7 @@
 	"parameters": {
 		"p_environment": {
 			"type": "string",
-			"value": "dev"
+			"value": "dev1"
 		},
 		"p_site_prefix": {
 			"type": "string",
