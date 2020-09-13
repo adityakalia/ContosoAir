@@ -16,7 +16,7 @@ describe('[Unit] That Airports Service', () => {
     it('gets all listed airpots', () => {
         const airports = new AirportsService(dummyAirportsJSON);
         const all = airports.getAll();
-        expect(all.length).toBe(3);
+        expect(all.length).toBe(2);
     });
 
     it('gets specific airport', () => {
