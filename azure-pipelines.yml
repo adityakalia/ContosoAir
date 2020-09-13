@@ -1,0 +1,125 @@
+Introduction slide
+we will make it interactive, please ask question as they come
+talk about xl demo
+remove pipeline badge from code
+
+
+Match survey links
+
+validate the survey links
+
+Demo reset notes
+================
+Go to github and uninstall Azure pipelines plugin from the repo
+delete file azure-pipelines.yml from github code
+delete file test-report.xml from github source code
+
+
+Draw a high level digram to explain azure devops -> agent and portal
+
+Demo
+================
+
+
+Start from talking about fork and cloning
+
+
+Start introduction to project structure
+project has been forked
+https://github.com/adityakalia/ContosoAir
+
+The ContosoAir sample customer scenario
+ContosoAir is a global airline, and a growing player in the international airline industry. They recently kicked off a project to take their ContosoAir application to the next level, with a stated goal of "delighting customers around the world with a more intelligent and responsive app."
+
+
+Its a nodejs based application
+code uses handlebarjs for templating html fragements,
+this is a light weight template engine
+
+Azure Cosmos DB is Microsoft's globally distributed, multi-model database service. With a click of a button, Cosmos DB enables you to elastically and independently scale throughput and storage across any number of Azure regions worldwid
+
+
+data folder has data models
+repositortes integrate with cosmo
+
+these repositories are invoked by services
+
+spec files in services folder have the tests
+tests are written using jest
+
+ARM Templates are a way to declare the objects you want, the types, names and properties in a JSON file which can be checked into source control and managed like any other code file. ARM Templates are what really gives us the ability to roll out Azure “Infrastructure as code”.
+parameters 	No 	Values that are provided when deployment is executed to customize resource deployment.
+variables 	No 	Values that are used as JSON fragments in the template to simplify template language expressions.
+functions 	No 	User-defined functions that are available within the template.
+resources 	Yes 	Resource types that are deployed or updated in a resource group or subscription.
+outputs 	No 	Values that are returned after deployment.
+
+Microsoft Azure Web Sites is a cloud computing based platform for hosting websites, created and operated by Microsoft. Microsoft Azure Web Sites is a platform as a service (PaaS) which allows publishing Web apps running on multiple frameworks and written in different programming languages (.NET, node.js, PHP, Python and Java), including Microsoft proprietary ones and 3rd party ones.
+
+
+
+Show various components of the code, what does each folder mean etc.
+Introduce the ARM templates - Azure Resource Manager templates
+
+Start the first thing after the code intro
+
+The site will be hosted in Azure, and they want to automate the entire process so that they can spin up all the infrastructure needed to deploy and host the application without any manual intervention. Once this process is in place, it will free up their technology teams to focus more on generating business value.
+
+This will involve setting up a pipeline so that commits to the GitHub repo invoke a continuous integration build in Azure DevOps. Once that build is complete, it will invoke a continuous delivery deployment to push the bits out to Azure, creating the required resources
+
+Configure a CI Pipeline
+========================
+
+
+In this exercise, we will help Contoso Air revamp a critical component of their DevOps scenario. Like all airlines, they rely on their web site to generate and manage business opportunities. However, the current processes they have in place to move a change from their source code to their production systems is time-consuming and open to human error. They use GitHub to manage their source code and want to host their production site on Azure, so it will be our job to automate everything in the middle.
+
+After adding the project
+
+Every build pipeline is simply a set of tasks. Whether it’s copying files, compiling the source, or publishing artifacts, the existing library of tasks covers the vast majority of scenarios. You can even create your own if you have specialized needs not already covered. We’re going to use YAML, a markup syntax that lends itself well to describing the build pipeline. Note that the Node.js pipeline as a starting point based on an analysis of our source project. We’ll replace the contents with the final YAML required for our project.
+
+
+Why do we need this?
+
+
+Add a build status badge
+========================
+Why do we need this?
+[![Build Status](https://dev.azure.com/adityakalia0117/azure-devops/_apis/build/status/adityakalia.ContosoAir?branchName=master)](https://dev.azure.com/adityakalia0117/azure-devops/_build/latest?definitionId=1&branchName=master)
+
+![alt text](https://dev.azure.com/adityakalia0117/azure-devops/_apis/build/status/adityakalia.ContosoAir?branchName=master)
+
+
+Embed automated tests in the CI pipeline
+========================
+Why do we need this?
+
+Configure a CD pipeline with Azure Pipeline
+========================
+Why do we need this?
+
+
+
+
+Once i have prepared the demo and finalized the ppt for understaing azure a bit more watch this video
+https://www.youtube.com/watch?v=Ge_Sp-1lWZ4
+
+project has been forked
+https://github.com/adityakalia/ContosoAir
+Its a nodejs based application
+
+ARM templates area called arm templates
+
+ARM templates are resource management templates
+
+I really need to keep an eye on the chat screen this time
+
+I have to put the survey link towards the end
+
+I have to get and update the event code.
+
+update ppt with some links etc.
+
+The reference material can be found in the Azure DevOps Labs here: https://www.azuredevopslabs.com/labs/vstsextend/github-azurepipelines. The goal will be to:
+
+Provide an overview of DevOps and how CI/CD fit into that
+Set up an automated CI/CD pipeline with Azure Pipelines
