@@ -13,7 +13,7 @@ steps:
     displayName: 'npm custom'
     inputs:
       command: custom
-      verbose: true
+      verbose: false
       customCommand: 'install --production'
   - task: ArchiveFiles@2
     displayName: 'Archive $(Build.SourcesDirectory)'
