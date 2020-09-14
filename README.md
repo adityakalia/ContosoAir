@@ -1,5 +1,3 @@
-[![Build Status](https://dev.azure.com/aditya0707/test1/_apis/build/status/adityakalia.ContosoAir?branchName=master)](https://dev.azure.com/aditya0707/test1/_build/latest?definitionId=2&branchName=master)
-
 # Microsoft.Github CI Demo
 
 Demo website application for Contoso Air.  
