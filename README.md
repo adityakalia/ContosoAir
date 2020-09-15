@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/aditya0707/azure-devops-reactor/_apis/build/status/adityakalia.ContosoAir?branchName=master)](https://dev.azure.com/aditya0707/azure-devops-reactor/_build/latest?definitionId=4&branchName=master)
+
 # Microsoft.Github CI Demo
 
 Demo website application for Contoso Air.  
